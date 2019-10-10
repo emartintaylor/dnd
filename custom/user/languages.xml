@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Morse Code" type="Language" source="User" id="ID_MM_LANGUAGE_MORSE">
+		<description>
+			<p>Spoken by Constructs.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers"></set>
+			<set name="script"></set>
+		</setters>
+	</element>
+	<element name="Sylvan" type="Language" source="User" id="ID_LANGUAGE_SYLVAN">
+		<supports>Starting, ID_INTERNAL_SUPPORT_LANGUAGE_STARTING</supports>
+		<description>
+			<p>Spoken by the fey.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers"></set>
+			<set name="script"></set>
+		</setters>
+	</element>
+	<element name="Draconic" type="Language" source="User" id="ID_LANGUAGE_DRACONIC">
+		<supports>Starting, ID_INTERNAL_SUPPORT_LANGUAGE_STARTING</supports>
+		<description>
+			<p>Spoken by the dragonboarn.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Dragonboarn</set>
+			<set name="script"></set>
+		</setters>
+	</element>
+	<element name="Primodial" type="Language" source="User" id="ID_LANGUAGE_PRIMODIAL">
+		<supports>Starting, ID_INTERNAL_SUPPORT_LANGUAGE_STARTING</supports>
+		<description>
+			<p>Spoken by the ??.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers"></set>
+			<set name="script"></set>
+		</setters>
+	</element>
+</elements>

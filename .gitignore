@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/gallery
+/portraits
+/custom/unearthed-arcana.index
+/custom/unearthed-arcana
+/custom/supplements.index
+/custom/supplements
+/custom/core.index
+/custom/core

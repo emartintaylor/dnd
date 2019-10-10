@@ -1,0 +1,287 @@
+ <elements>
+	<!-- Warforged -->
+	<element name="Warforged" type="Race" source="Unearthed Arcana: Eberron" id="ID_WOTC_UA_RACE_WARFORGED">
+		<description>
+			<p class="flavor">The warforged were made as the ideal soldiers to serve in the devastating Last War. Although they are constructs, they have much in common with living creatures, including emotions and social bonds, and perhaps even souls.</p>
+			<p>As a warforged, you have the following racial traits.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Strength and Constitution scores increase by 1.<br/>
+				<span class="feature">Size.</span>Warforged are generally broader and heavier than humans. Your size is Medium.<br/>
+				<span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+				<span class="feature">Composite Plating.</span>Your construction incorporates wood and metal, granting you a +1 bonus to Armor Class.<br/>
+				<span class="feature">Living Construct.</span>Even though you were constructed, you are a living creature. You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish.<br/>Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal.<br/>
+				<span class="feature">Languages.</span>You can speak, read, and write Common and one other language of your choice.<br/>
+			</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<!-- custom names from online generator -->
+			<set name="names" type="custom">Ogler, Warden, Masker, Sunderer, Director, Slasher, Familiar, Abider, Beauty, Cannon, Menace, Ravager, Destroyer, Walker, Tester, Shredder, Bender, Handler</set>
+			<set name="names-format" type="custom">{{custom}}</set>
+			<set name="height" modifier="2d10">5'10"</set>
+			<set name="weight" modifier="1d4">300 lb.</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Racial Trait" id="ID_WOTC_UA_RACIAL_TRAIT_LIVING_CONSTRUCT" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<select type="Language" name="Language (Warforged)" />
+			<select type="Racial Trait" name="Plating (Warforged)" supports="Warforged" number="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_WARFORGED_SPECIALIZATION" />
+		</rules>
+	</element>
+
+	<!-- Specialization -->
+	<element name="Warforged Specialization" type="Specialization" source="Player’s Handbook" id="ID_RACIAL_TRAIT_WARFORGED_SPECIALIZATION">
+		<description>
+			<p>Specialization.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Warforged Specialization" supports="Warforged" />
+		</rules>
+	</element>
+
+	<element name="Envoy" type="Sub Race" source="Player’s Handbook" id="ID_SPECIALIZATION_ENVOY">
+		<supports>Warforged</supports>
+		<description>
+			<p>As an envoy, you were designed with a certain specialized function in mind. You might be an assassin, a healer, or an entertainer, to name a few possibilities. Envoys are the rarest of the warforged subraces, and yours could be a unique design.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Pick two ability scores to increase by 1.<br />
+				<span class="feature">Specialized Design.</span>You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.<br />
+				<span class="feature">Integrated Tool.</span>WChoose one tool you’re proficient with. This tool is integrated into your body, and you double your proficiency bonus for any ability checks you make with it. You must have your hands free to use this integrated tool.<br />
+			</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+
+		</setters>
+		<rules>
+			<select type="Racial Trait" name="Ability Score Increase (Envoy)" supports="Envoy" number="2" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ENVOY_SKILL" />
+		</rules>
+	</element>
+	<element name="Juggernaut" type="Sub Race" source="Player’s Handbook" id="ID_SPECIALIZATION_JUGGERNAUT">
+		<supports>Warforged</supports>
+		<description>
+			<p>You’re an imposing war machine built for close combat and raw might. You tower over your comrades; juggernaut warforged stand between 6 and 7 feet in height and can weigh up to 450 pounds.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Strength score increases by 2.<br />
+				<span class="feature">Iron Fists</span>When you make an unarmed strike, you can deal 1d4 + your Strength modifier bludgeoning damage instead of the normal damage.<br />
+				<span class="feature">Powerful Build.</span>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.<br />
+			</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">6'6"</set>
+			<set name="weight" modifier="1d4">400 lb.</set>
+		</setters>
+		<rules>
+			<stat name="Strength" value="2" />
+			<grant type="Size" id="ID_SIZE_LARGE" />
+			<grant type="Size" id="ID_USER_POWERFUL_BUILD" />
+		</rules>
+	</element>
+	<element name="Skirmisher" type="Sub Race" source="Player’s Handbook" id="ID_SPECIALIZATION_SKIRMISHER">
+		<supports>Warforged</supports>
+		<description>
+			<p>You were built to scout the edges of battle and outmaneuver your enemies. You are lean and designed for speed.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 2.<br />
+				<span class="feature">Swift.</span>Your walking speed is increased by 5 feet.<br />
+				<span class="feature">Light Step.</span>When you are traveling alone for an extended period of time (one hour or more), you can move stealthily at a normal pace.<br />
+			</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="Dexterity" value="2" />
+			<grant type="Racial Trait" id="ID_USER_FEATURE_SWIFT" />
+			<grant type="Racial Trait" id="ID_USER_FEATURE_LIGHT_STEP" />
+		</rules>
+	</element>
+
+	<!-- Plating --> 
+	<element name="Composite Plating" type="Racial Trait" source="Unearthed Arcana: Eberron" id="ID_WOTC_UA_RACIAL_TRAIT_COMPOSITPLATING">
+		<supports>Warforged</supports>
+		<description>
+			<p>Your construction incorporates wood and metal, granting you a bonus to Armor Class.</p>
+		</description>
+		<sheet>
+			<description>Your construction incorporates wood and metal, granting you an AC of {{ac:unarmored defense composite}}. You can use a shield and still gain its benefit.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:unarmored defense composite:base" value="13" />
+			<stat name="ac:unarmored defense composite:dexterity" value="dexterity:modifier" />
+			<stat name="ac:unarmored defense composite:proficiency" value="proficiency" />
+
+			<stat name="ac:unarmored defense composite" value="ac:unarmored defense composite:base" />
+			<stat name="ac:unarmored defense composite" value="ac:unarmored defense composite:dexterity" />
+			<stat name="ac:unarmored defense composite" value="ac:unarmored defense composite:proficiency" />
+
+			<stat name="ac:calculation" value="ac:unarmored defense composite" bonus="calculation" equipped="[armor:none]" alt="Composite Defence" />
+		</rules>
+	</element>
+	<element name="Darkwood Core Plating" type="Racial Trait" source="Unearthed Arcana: Eberron" id="ID_WOTC_UA_RACIAL_TRAIT_DARKWOOD_PLATING">
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR</requirements>
+		<supports>Warforged</supports>
+		<description>
+			<p>Your construction incorporates wood and metal, granting you a bonus to Armor Class.</p>
+		</description>
+		<sheet>
+			<description>Your construction incorporates wood and metal, granting you an AC of {{ac:unarmored defense wood}}. You can use a shield and still gain its benefit.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:unarmored defense wood:base" value="11" />
+			<stat name="ac:unarmored defense wood:dexterity" value="dexterity:modifier" />
+			<stat name="ac:unarmored defense wood:proficiency" value="proficiency" />
+
+			<stat name="ac:unarmored defense wood" value="ac:unarmored defense wood:base" />
+			<stat name="ac:unarmored defense wood" value="ac:unarmored defense wood:dexterity" />
+			<stat name="ac:unarmored defense wood" value="ac:unarmored defense wood:proficiency" />
+
+			<stat name="ac:calculation" value="ac:unarmored defense wood" bonus="calculation" equipped="[armor:none]" alt="Darkwood Defence" />
+		</rules>
+	</element>
+	<element name="Heavy Plating" type="Racial Trait" source="Unearthed Arcana: Eberron" id="ID_WOTC_UA_RACIAL_TRAIT_HEAVY_PLATING">
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR</requirements>
+		<supports>Warforged</supports>
+		<description>
+			<p>Your construction incorporates wood and metal, granting you a bonus to Armor Class.</p>
+		</description>
+		<sheet>
+			<description>Your construction incorporates wood and metal, granting you an AC of {{ac:unarmored defense heavy}}. You can use a shield and still gain its benefit.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:unarmored defense heavy:base" value="16" />
+			<stat name="ac:unarmored defense heavy:dexterity" value="dexterity:modifier" />
+			<stat name="ac:unarmored defense heavy:proficiency" value="proficiency" />
+
+			<stat name="ac:unarmored defense heavy" value="ac:unarmored defense heavy:base" />
+			<stat name="ac:unarmored defense heavy" value="ac:unarmored defense heavy:dexterity" />
+			<stat name="ac:unarmored defense heavy" value="ac:unarmored defense heavy:proficiency" />
+
+			<stat name="ac:calculation" value="ac:unarmored defense heavy" bonus="calculation" equipped="[armor:none]" alt="Heavy Defence" />
+		</rules>
+	</element>
+
+	<!-- Features -->
+	<element name="Living Construct" type="Racial Trait" source="Unearthed Arcana: Eberron" id="ID_WOTC_UA_RACIAL_TRAIT_LIVING_CONSTRUCT">
+		<description>
+			<p>Even though you were constructed, you are a living creature. You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish.</p>
+			<p class="indent">Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal.</p>
+		</description>
+		<sheet>
+			<description>You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Powerful Build" type="Racial Trait" source="User" id="ID_USER_POWERFUL_BUILD">
+		<description>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+		</description>
+		<sheet>
+			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+		</sheet>
+	</element>
+	<element name="Swift" type="Racial Trait" source="Usera" id="ID_USER_FEATURE_SWIFT">
+		<description>
+			<p>Your walking speed is increased by 5 feet.</p>
+		</description>
+		<sheet>
+			<description>Your walking speed is increased by 5 feet</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:misc" value="5" requirements="[innate speed:1]" />
+		</rules>
+	</element>
+	<element name="Light Step" type="Racial Trait" source="User" id="ID_USER_FEATURE_LIGHT_STEP">
+		<description>
+			<p>When you are traveling alone for an extended period of time (one hour or more), you can move stealthily at a normal pace.</p>
+		</description>
+		<sheet>
+			<description>When you are traveling alone for an extended period of time (one hour or more), you can move stealthily at a normal pace.</description>
+		</sheet>
+	</element>
+	
+	
+	<!-- Stat Increases -->
+	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_WARFORGED_STRENGTH">
+		<supports>Envoy</supports>
+		<requirements />
+		<description>
+			<p>Your Strength increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="strength" value="1"/>
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_WARFORGED_DEXTERITY">
+		<supports>Envoy</supports>
+		<requirements />
+		<description>
+			<p>Your Dexterity increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="dexterity" value="1"/>
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_WARFORGED_CONSTITUTION">
+		<supports>Envoy</supports>
+		<requirements />
+		<description>
+			<p>Your Constitution increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="constitution" value="1"/>
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_WARFORGED_INTELLIGENCE">
+		<supports>Envoy</supports>
+		<requirements />
+		<description>
+			<p>Your Intelligence increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="intelligence" value="1"/>
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_WARFORGED_WISDOM">
+		<supports>Envoy</supports>
+		<requirements />
+		<description>
+			<p>Your Wisdom increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="wisdom" value="1"/>
+		</rules>
+	</element>
+	
+	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_WARFORGED_CHARISMA">
+		<supports>Envoy</supports>
+		<requirements />
+		<description>
+			<p>Your Charisma increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="charisma" value="1"/>
+		</rules>
+	</element>
+	  <element name="Skill Versatility" type="Racial Trait" source="User" id="ID_RACIAL_TRAIT_ENVOY_SKILL">
+    <supports />
+    <requirements />
+    <description>
+      <p>You gain proficiency in a skill of your choice.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Proficiency" name="Skill Proficiency (Envoy)" supports="Skill" number="1" />
+    </rules>
+  </element>
+</elements>

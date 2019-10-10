@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Walking Stick" type="Item" source="User" id="ID_USER_ITEM_WALKING_STICK">
+		<description>
+			<p>A walking stick that if struck on stone, will create sparks.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">false</set>
+		</setters>
+	</element>
+</elements>
