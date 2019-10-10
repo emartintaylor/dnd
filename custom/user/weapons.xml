@@ -62,4 +62,21 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
+    <element name="Wind Fan" type="Weapon" source="User" id="ID_USER_WEAPON_WINDFAN">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+        <description>
+            <p>A Sharp Fan that can cast Gust of Wind</p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">10</set>
+            <set name="weight" lb="2">2 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="slashing">1d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD</set>
+        </setters>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" />
+        </rules>
+    </element>
 </elements>

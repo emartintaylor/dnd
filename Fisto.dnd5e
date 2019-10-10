@@ -36,9 +36,6 @@ Pack Tactics (avantage on attacks)
 30ft Walking speed
 Can move or attack, or move at half speed and half can attack
 1d4+1 per soldiers - magical damage]]></description>
-				<attack identifier="0d79c07c-2320-41bc-afa7-bdc036083e4f" name="Shortsword" range="5 ft" attack="+6 vs AC" damage="1d6 + 3 piercing" displayed="true" ability="Dexterity">
-					<description><![CDATA[Finesse, Light]]></description>
-				</attack>
 				<attack identifier="6ff2e923-4264-43c7-9e19-e6cdff5978c2" name="Silvered Dagger" range="20/60" attack="+6 vs AC" damage="1d4 + 3 piercing" displayed="true" ability="Dexterity">
 					<description><![CDATA[Silvered]]></description>
 				</attack>
@@ -203,6 +200,9 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 			<element type="Level" name="3" id="ID_LEVEL_3" />
 			<element type="Level" name="4" id="ID_LEVEL_4" />
 			<element type="Level" name="5" id="ID_LEVEL_5" />
+			<element type="Weapon" name="Wind Fan" id="ID_USER_WEAPON_WINDFAN">
+				<element type="Spell" name="Gust of Wind" id="ID_PHB_SPELL_GUST_OF_WIND" />
+			</element>
 		</elements>
 		<defenses>
 			<conditional>
@@ -372,7 +372,6 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 				</details>
 			</item>
 			<item identifier="043babb0-1ebd-4274-858a-d59898622fa4" name="Wind Fan" id="ID_WOTC_DMG_MAGIC_ITEM_WIND_FAN">
-				<equipped location="Primary Hand">true</equipped>
 				<details card="true">
 					<name>
 					</name>
@@ -390,8 +389,17 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 					</notes>
 				</details>
 			</item>
+			<item identifier="f005b7d6-efd5-4090-b4d9-a7b169ec547d" name="Wind Fan" id="ID_USER_WEAPON_WINDFAN">
+				<equipped location="Primary Hand">true</equipped>
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
 		</equipment>
-		<sum element-count="74">
+		<sum element-count="75">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Level" id="ID_LEVEL_1" />
@@ -425,9 +433,10 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 			<element type="Level" id="ID_LEVEL_3" />
 			<element type="Level" id="ID_LEVEL_4" />
 			<element type="Feat" id="ID_PHB_FEAT_LUCKY" />
-			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_WIND_FAN" />
-			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_EYES_OF_CHARMING" />
 			<element type="Level" id="ID_LEVEL_5" />
+			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_EYES_OF_CHARMING" />
+			<element type="Weapon" id="ID_USER_WEAPON_WINDFAN" />
+			<element type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_MONK" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS" />
@@ -467,7 +476,11 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 			<element type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAYOFTHEOPENHAND_OPEN_HAND_TECHNIQUE" />
 			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_FEAT_4_MONK" />
 		</sum>
-		<magic />
+		<magic>
+			<additional>
+				<spell name="Gust of Wind" level="2" id="ID_PHB_SPELL_GUST_OF_WIND" source="Wind Fan" />
+			</additional>
+		</magic>
 	</build>
 	<!-- restricted sources -->
 	<sources>
