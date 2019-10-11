@@ -79,4 +79,43 @@
             <grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" />
         </rules>
     </element>
+    <element name="Wind Fan Swords" type="Magic Item" source="Adventure League" id="ID_USER_DMG_MAGIC_ITEM_WIND_FAN_SWORD">
+        <description>
+            <p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+            <p class="indent">You can cast Gust once a day with this fan.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type" addition="Shortsword">Weapon</set>
+            <set name="rarity">Artifact</set>
+            <set name="attunement">true</set>
+            <set name="enhancement">1</set>
+            <set name="weapon">Shortsword</set>
+        </setters>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" />
+        </rules>
+    </element>
+    <element name="Sixth Sword" type="Magic Item" source="Adventure League" id="ID_USER_DMG_MAGIC_ITEM_SIXTH_SWORD">
+        <description>
+            <p>You gain a +2 bonus to attack and damage rolls made with this magic weapon. and +2 to initiative</p>
+            <p class="indent">You can cast Gust once a day with this fan.</p>
+        </description>
+        <setters>
+            <set name="keywords">sword</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type" addition="Rapier">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Common</set>
+            <set name="enhancement">2</set>
+            <set name="weapon">Rapier</set>
+        </setters>
+        <rules>
+            <stat name="initiative" value="2" />
+        </rules>
+    </element>
 </elements>
