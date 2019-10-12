@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <element name="Ring of Evocation" type="Magic Item" source="User" id="ID_USER_MAGIC_ITEM_RING_OF_EVOCATION">
+        <description>
+            <p>This ring reduces damage from Evocation spells (typical damage dealing spells, elemental) by 20%</p>
+        </description>
+        <setters>
+            <set name="category">Rings</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">—</set>
+            <set name="type">Ring</set>
+            <set name="slot">ring</set>
+            <set name="rarity">Rare</set>
+        </setters>
+    </element>
+</elements>

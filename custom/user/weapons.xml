@@ -118,4 +118,18 @@
             <stat name="initiative" value="2" />
         </rules>
     </element>
+    <element name="Force Musket" type="Weapon" source="Player’s Handbook" id="ID_USER_WEAPON_FORCE_MUSKETT">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">10</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="range">10/160</set>
+            <set name="damage" type="force">2d6</set>
+        </setters>
+    </element>
 </elements>

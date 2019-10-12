@@ -29,12 +29,22 @@
 			<player-name>Amani</player-name>
 			<experience>23000</experience>
 			<attacks>
-				<description><![CDATA[]]></description>
+				<description><![CDATA[Additional High Level Spells
+Polymorph
+Mass Suggesion
+Greater Restoration
+Ressurection]]></description>
 				<attack identifier="d770bca5-e908-4916-ad26-ae349085fc0f" name="Quarterstaff" range="5 ft" attack="+3 vs AC" damage="1d6 + 0 bludgeoning" displayed="true" ability="Strength">
 					<description><![CDATA[Versatile]]></description>
 				</attack>
 				<attack identifier="1e734892-4876-492a-80fe-655a02d4339f" name="Shortsword" range="5 ft" attack="+6 vs AC" damage="1d6 + 3 piercing" displayed="true" ability="Dexterity">
 					<description><![CDATA[Finesse, Light]]></description>
+				</attack>
+				<attack identifier="0b0a0783-0b3d-45cd-bc38-9ca36c95b19a" name="Rod of Absorption" range="5 ft" attack="+0 vs AC" damage=" + 0 " displayed="true" ability="Strength">
+					<description><![CDATA[Can hold (1) 3rd, (2) 2nd, and (3) 1st level spells. Last In First Out]]></description>
+				</attack>
+				<attack identifier="2fdf002f-4c26-481b-b818-0f876ad28067" name="Force Musket" range="10/160" attack="+3 vs AC" damage="2d6 + 3 force" displayed="true" ability="Dexterity">
+					<description><![CDATA[Ammunition, Loading]]></description>
 				</attack>
 			</attacks>
 			<backstory><![CDATA[You understand wealth, power, and privilege. You carry a noble title, and your family owns land, collects taxes, and wields significant political influence. You might be a pampered aristocrat unfamiliar with work or discomfort, a former merchant just elevated to the nobility, or a disinherited scoundrel with a disproportionate sense of entitlement. Or you could be an honest, hard-working landowner who cares deeply about the people who live and work on your land, keenly aware of your responsibility to them.
@@ -50,7 +60,8 @@ Does your family have a coat of arms? An insignia you might wear on a signet rin
 These details help establish your family and your title as features of the world of the campaign.]]></backstory>
 			<background-trinket>
 			</background-trinket>
-			<background-traits>No one could doubt by looking at my regal bearing that I am a cut above the unwashed masses.</background-traits>
+			<background-traits>No one could doubt by looking at my regal bearing that I am a cut above the unwashed masses.
+No one could doubt by looking at my regal bearing that I am a cut above the unwashed masses.</background-traits>
 			<background-ideals>Responsibility. It is my duty to respect the authority of those above me, just as those below me must respect mine. (Lawful)</background-ideals>
 			<background-bonds>The common folk must see me as a hero of the people.</background-bonds>
 			<background-flaws>I too often hear veiled insults and threats in every word addressed to me, and I’m quick to anger.</background-flaws>
@@ -78,7 +89,7 @@ Appearance - 1ft. tall. Blue body, red cap with white spots. No mouth or nose bu
 				<copper>0</copper>
 				<silver>0</silver>
 				<electrum>0</electrum>
-				<gold>145</gold>
+				<gold>395</gold>
 				<platinum>0</platinum>
 				<equipment><![CDATA[]]></equipment>
 				<treasure><![CDATA[]]></treasure>
@@ -88,7 +99,7 @@ Appearance - 1ft. tall. Blue body, red cap with white spots. No mouth or nose bu
 			<portrait>C:\Users\Nagesagi\Documents\5e Character Builder\portraits\elf high elf elf femal.jpg</portrait>
 			<age>
 			</age>
-			<height>4'6"</height>
+			<height>6'</height>
 			<weight>90 lb.</weight>
 			<eyes>
 			</eyes>
@@ -105,7 +116,7 @@ Appearance - 1ft. tall. Blue body, red cap with white spots. No mouth or nose bu
 			<wisdom>13</wisdom>
 			<charisma>8</charisma>
 		</abilities>
-		<elements level-count="7" registered-count="47">
+		<elements level-count="7" registered-count="52">
 			<element type="Option" name="Average Hit Points" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Level" name="1" id="ID_LEVEL_1" rndhp="6,1,2,1,2,4,6,4,3,3,3,5,3,5,1,1,4,5,1,3">
@@ -168,7 +179,7 @@ Appearance - 1ft. tall. Blue body, red cap with white spots. No mouth or nose bu
 						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="6" number="1" checksum="99e516e6" registered="ID_PHB_SPELL_FIREBALL" />
 						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="6" number="2" checksum="e79d5e40" registered="ID_PHB_SPELL_COUNTERSPELL" />
 						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="7" number="1" checksum="3a733eaa" registered="ID_XGTE_SPELL_SUMMON_GREATER_DEMON" />
-						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="7" number="2" checksum="440b760c" registered="" />
+						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="7" number="2" checksum="440b760c" registered="ID_POTA_SPELL_VITRIOLICSPHERE" />
 						<element type="Grants" name="Ritual Casting" id="ID_INTERNAL_RITUAL_CASTING" />
 						<element type="Proficiency" name="Spellcasting Focus Group (Arcane Focus)" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS" />
 					</element>
@@ -193,7 +204,7 @@ Appearance - 1ft. tall. Blue body, red cap with white spots. No mouth or nose bu
 					<element type="Background Variant" name="Variant Noble" requiredLevel="1" checksum="480d88a6" registered="" />
 					<element type="Background Feature" name="Variant Feature" requiredLevel="1" checksum="07c7e1d6" registered="" />
 					<element type="List" name="Personality Trait" requiredLevel="1" number="1" checksum="83aec724" isList="true" registered="3">No one could doubt by looking at my regal bearing that I am a cut above the unwashed masses.</element>
-					<element type="List" name="Personality Trait" requiredLevel="1" number="2" checksum="1aa7969e" isList="true" registered="" />
+					<element type="List" name="Personality Trait" requiredLevel="1" number="2" checksum="1aa7969e" isList="true" registered="3">No one could doubt by looking at my regal bearing that I am a cut above the unwashed masses.</element>
 					<element type="List" name="Ideal" requiredLevel="1" checksum="7daae5a2" isList="true" registered="2">Responsibility. It is my duty to respect the authority of those above me, just as those below me must respect mine. (Lawful)</element>
 					<element type="List" name="Bond" requiredLevel="1" checksum="6e9e8a3f" isList="true" registered="6">The common folk must see me as a hero of the people.</element>
 					<element type="List" name="Flaw" requiredLevel="1" checksum="d1ee827f" isList="true" registered="3">I too often hear veiled insults and threats in every word addressed to me, and I’m quick to anger.</element>
@@ -262,7 +273,6 @@ Appearance - 1ft. tall. Blue body, red cap with white spots. No mouth or nose bu
 		</companion>
 		<equipment>
 			<item identifier="d770bca5-e908-4916-ad26-ae349085fc0f" name="Quarterstaff" id="ID_WOTC_PHB_WEAPON_QUARTERSTAFF">
-				<equipped location="Secondary Hand">true</equipped>
 				<details card="true">
 					<name>
 					</name>
@@ -343,7 +353,7 @@ Appearance - 1ft. tall. Blue body, red cap with white spots. No mouth or nose bu
 				</details>
 			</item>
 			<item identifier="0ca651bb-f7d2-4a37-a257-e1bb3a6b49bd" name="Wand" id="ID_WOTC_PHB_ITEM_WAND">
-				<equipped location="Primary Hand">true</equipped>
+				<equipped location="Secondary Hand">true</equipped>
 				<details card="true">
 					<name>
 					</name>
@@ -359,8 +369,63 @@ Appearance - 1ft. tall. Blue body, red cap with white spots. No mouth or nose bu
 					</notes>
 				</details>
 			</item>
+			<item identifier="0b0a0783-0b3d-45cd-bc38-9ca36c95b19a" name="Rod of Absorption" id="ID_WOTC_DMG_MAGIC_ITEM_ROD_OF_ABSORPTION">
+				<equipped location="Primary Hand">true</equipped>
+				<attunement>true</attunement>
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="b5ba1caf-e975-4428-9670-546dead01fce" name="Ioun Stone, Sustenance" id="ID_WOTC_DMG_MAGIC_ITEM_IOUN_STONE_SUSTENANCE">
+				<attunement>true</attunement>
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="59e3e448-65d5-48e7-8e85-4ad56aadf073" name="Ioun Stone, Absorption" id="ID_WOTC_DMG_MAGIC_ITEM_IOUN_STONE_ABSORPTION">
+				<attunement>true</attunement>
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="2fdf002f-4c26-481b-b818-0f876ad28067" name="Force Musket" id="ID_USER_WEAPON_FORCE_MUSKETT">
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="e928f3b5-7963-4628-8953-4012095564f6" name="Cloak of Displacement" id="ID_WOTC_DMG_MAGIC_ITEM_CLOAK_OF_DISPLACEMENT">
+				<equipped>true</equipped>
+				<attunement>true</attunement>
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="bfc46b78-c11e-43a6-99da-616fda5942cc" name="Ring of Evocation" id="ID_USER_MAGIC_ITEM_RING_OF_EVOCATION">
+				<equipped>true</equipped>
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
 		</equipment>
-		<sum element-count="87">
+		<sum element-count="92">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Level" id="ID_LEVEL_1" />
@@ -425,10 +490,15 @@ Appearance - 1ft. tall. Blue body, red cap with white spots. No mouth or nose bu
 			<element type="Level" id="ID_LEVEL_6" />
 			<element type="Spell" id="ID_PHB_SPELL_FIREBALL" />
 			<element type="Spell" id="ID_PHB_SPELL_COUNTERSPELL" />
-			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_QUARTERSTAFF" />
-			<element type="Item" id="ID_WOTC_PHB_ITEM_WAND" />
 			<element type="Level" id="ID_LEVEL_7" />
 			<element type="Spell" id="ID_XGTE_SPELL_SUMMON_GREATER_DEMON" />
+			<element type="Spell" id="ID_POTA_SPELL_VITRIOLICSPHERE" />
+			<element type="Item" id="ID_WOTC_PHB_ITEM_WAND" />
+			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_ROD_OF_ABSORPTION" />
+			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_IOUN_STONE_SUSTENANCE" />
+			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_IOUN_STONE_ABSORPTION" />
+			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_CLOAK_OF_DISPLACEMENT" />
+			<element type="Magic Item" id="ID_USER_MAGIC_ITEM_RING_OF_EVOCATION" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_WIZARD" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
@@ -476,6 +546,7 @@ Appearance - 1ft. tall. Blue body, red cap with white spots. No mouth or nose bu
 					<spell name="Leomund’s Tiny Hut" level="3" id="ID_PHB_SPELL_LEOMUNDS_TINY_HUT" always-prepared="true" known="true" />
 					<spell name="Lightning Bolt" level="3" id="ID_PHB_SPELL_LIGHTNING_BOLT" always-prepared="true" known="true" />
 					<spell name="Summon Greater Demon" level="4" id="ID_XGTE_SPELL_SUMMON_GREATER_DEMON" always-prepared="true" known="true" />
+					<spell name="Vitriolic Sphere" level="4" id="ID_POTA_SPELL_VITRIOLICSPHERE" always-prepared="true" known="true" />
 				</spells>
 			</spellcasting>
 			<additional>

@@ -80,7 +80,7 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 				<copper>0</copper>
 				<silver>0</silver>
 				<electrum>0</electrum>
-				<gold>195</gold>
+				<gold>495</gold>
 				<platinum>0</platinum>
 				<equipment><![CDATA[]]></equipment>
 				<treasure><![CDATA[1 Purple key (used on the box for toy soldiers)
@@ -459,11 +459,11 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 			<element type="Level" id="ID_LEVEL_5" />
 			<element type="Level" id="ID_LEVEL_6" />
 			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_EYES_OF_CHARMING" />
+			<element type="Magic Item" id="ID_USER_DMG_MAGIC_ITEM_SIXTH_SWORD" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_SHORTSWORD" />
 			<element type="Magic Item" id="ID_USER_DMG_MAGIC_ITEM_WIND_FAN_SWORD" />
 			<element type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" />
 			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_BOOTS_OF_ELVENKIND" />
-			<element type="Magic Item" id="ID_USER_DMG_MAGIC_ITEM_SIXTH_SWORD" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_MONK" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS" />
