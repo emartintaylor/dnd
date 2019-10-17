@@ -35,10 +35,10 @@ Mass Suggesion
 Greater Restoration
 Ressurection]]></description>
 				<attack identifier="d770bca5-e908-4916-ad26-ae349085fc0f" name="Quarterstaff" range="5 ft" attack="+3 vs AC" damage="1d6 + 0 bludgeoning" displayed="true" ability="Strength">
-					<description><![CDATA[Versatile]]></description>
+					<description><![CDATA[Versatile - Magic]]></description>
 				</attack>
 				<attack identifier="1e734892-4876-492a-80fe-655a02d4339f" name="Shortsword" range="5 ft" attack="+6 vs AC" damage="1d6 + 3 piercing" displayed="true" ability="Dexterity">
-					<description><![CDATA[Finesse, Light]]></description>
+					<description><![CDATA[Finesse, Light - Magic]]></description>
 				</attack>
 				<attack identifier="0b0a0783-0b3d-45cd-bc38-9ca36c95b19a" name="Rod of Absorption" range="5 ft" attack="+0 vs AC" damage=" + 0 " displayed="true" ability="Strength">
 					<description><![CDATA[Can hold (1) 3rd, (2) 2nd, and (3) 1st level spells. Last In First Out]]></description>
