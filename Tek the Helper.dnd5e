@@ -13,7 +13,7 @@
 		<archetype>
 		</archetype>
 		<background>Secret Identity</background>
-		<level>1</level>
+		<level>3</level>
 		<portrait>
 			<companion>
 			</companion>
@@ -27,17 +27,24 @@
 			<name>Tek the Helper</name>
 			<gender>Male</gender>
 			<player-name>Player One</player-name>
-			<experience>0</experience>
+			<experience>900</experience>
 			<attacks>
 				<description><![CDATA[]]></description>
 				<attack identifier="5483acc1-0ff3-43c4-b265-05209c84b84d" name="Lute" range="5 ft" attack="-1 vs AC" damage=" + -1 " displayed="true" ability="Strength">
 					<description><![CDATA[]]></description>
 				</attack>
+				<attack identifier="3153403d-ac1e-421b-84be-fffdb1a94c96" name="Crossbow, Light" range="80/320" attack="+5 vs AC" damage="1d8 + 3 piercing" displayed="true" ability="Dexterity">
+					<description><![CDATA[Ammunition, Loading, Two-Handed]]></description>
+				</attack>
+				<attack identifier="1cba9bc4-71bc-4939-8fd6-ee49c677a172" name="Daggers (2)" range="20/60" attack="+5 vs AC" damage="1d4 + 3 piercing" displayed="true" ability="Dexterity">
+					<description><![CDATA[Finesse, Light, Thrown]]></description>
+				</attack>
 			</attacks>
 			<backstory><![CDATA[Even though you are a non-human, despite Hillfar's Great Law of Humanity, you continue to live in the City of Trade. You do so by maintaining a secret identity, forging documents, and wearing a disguise. Few, if any, know you aren't human. If you're a halfling or gnome, you pass as a little person or a child. If you're a half-elf, half-orc, or genasi, you disguise your non-human features. Other races use a combination of disguise and concealing clothing to hide. Your reasons for doing so are your own. Perhaps you're a dissident or the agent of a foreign power. Maybe you have a relationship with someone you cannot bear to leave. Regardless, this way of life has taken a heavy toll on you.]]></backstory>
 			<background-trinket>
 			</background-trinket>
-			<background-traits>I think flattery is the best way to direct attention away from me.</background-traits>
+			<background-traits>I think flattery is the best way to direct attention away from me.
+Despite its problems, I love Hillsfar, it's the greatest city in the world. The only one for me.</background-traits>
 			<background-ideals>Optimist: Everyone is basically good. Though the government is misguided it will all be okay. (Any)</background-ideals>
 			<background-bonds>My secret identity is the only thing protecting me from the Arena. I will stop at nothing to maintain it.</background-bonds>
 			<background-flaws>I've been lying so often and for so long that I can't help it anymore. I frequently lie for no reason at all.</background-flaws>
@@ -80,14 +87,14 @@
 			</hair>
 		</appearance>
 		<abilities available-points="15">
-			<strength>8</strength>
+			<strength>9</strength>
 			<dexterity>16</dexterity>
 			<constitution>9</constitution>
 			<intelligence>11</intelligence>
 			<wisdom>16</wisdom>
 			<charisma>16</charisma>
 		</abilities>
-		<elements level-count="1" registered-count="22">
+		<elements level-count="3" registered-count="29">
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
 				<element type="Grants" name="Multiclass Spellcasting" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -109,7 +116,7 @@
 					<element type="Proficiency" name="Musical Instrument (Bard)" requiredLevel="1" number="2" checksum="38f6ffdf" registered="ID_PROFICIENCY_TOOL_PROFICIENCY_DRUM" />
 					<element type="Proficiency" name="Musical Instrument (Bard)" requiredLevel="1" number="3" checksum="4ff1cf49" registered="ID_PROFICIENCY_TOOL_PROFICIENCY_BAGPIPES" />
 					<element type="Proficiency" name="Skill Proficiency (Bard)" requiredLevel="1" number="1" checksum="9cff6156" registered="ID_PROFICIENCY_SKILL_INSIGHT" />
-					<element type="Proficiency" name="Skill Proficiency (Bard)" requiredLevel="1" number="2" checksum="05f630ec" registered="ID_PROFICIENCY_SKILL_PERCEPTION" />
+					<element type="Proficiency" name="Skill Proficiency (Bard)" requiredLevel="1" number="2" checksum="05f630ec" registered="ID_PROFICIENCY_SKILL_PERSUASION" />
 					<element type="Proficiency" name="Skill Proficiency (Bard)" requiredLevel="1" number="3" checksum="72f1007a" registered="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
 					<element type="Proficiency" name="Armor Proficiency (Light Armor)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR">
 						<element type="Proficiency" name="Armor Proficiency (Padded)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
@@ -151,13 +158,29 @@
 						<element type="Spell" name="Spellcasting (Bard)" requiredLevel="1" number="2" checksum="3962ef99" registered="ID_PHB_SPELL_CURE_WOUNDS" />
 						<element type="Spell" name="Spellcasting (Bard)" requiredLevel="1" number="3" checksum="134ad7fb" registered="ID_PHB_SPELL_SLEEP" />
 						<element type="Spell" name="Spellcasting (Bard)" requiredLevel="1" number="4" checksum="c5927ed5" registered="ID_PHB_SPELL_TASHAS_HIDEOUS_LAUGHTER" />
+						<element type="Spell" name="Spellcasting (Bard)" requiredLevel="2" checksum="78d1d9aa" registered="ID_PHB_SPELL_HEALING_WORD" />
+						<element type="Spell" name="Spellcasting (Bard)" requiredLevel="3" checksum="db47f1e6" registered="ID_PHB_SPELL_THUNDERWAVE" />
 						<element type="Grants" name="Ritual Casting" id="ID_INTERNAL_RITUAL_CASTING" />
 					</element>
 					<element type="Grants" name="Multiclassing Prerequisite" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
+					<element type="Class Feature" name="Jack of All Trades" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES" />
+					<element type="Class Feature" name="Song of Rest" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SONG_OF_REST" />
+					<element type="Class Feature" name="Bard College" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARD_COLLEGE">
+						<element type="Archetype" name="Bard College" requiredLevel="3" checksum="15878cb4" registered="ID_WOTC_UA20190918_ARCHETYPE_COLLEGE_OF_ELOQUENCE">
+							<element type="Archetype Feature" name="Universal Speech" id="ID_WOTC_UA20190918_ARCHETYPE_FEATURE_ELOQUENCE_UNIVERSAL_SPEECH" />
+							<element type="Archetype Feature" name="Soothing Words" id="ID_WOTC_UA20190918_ARCHETYPE_FEATURE_ELOQUENCE_SOOTHING_WORDS">
+								<element type="Spell" name="Calm Emotions" id="ID_PHB_SPELL_CALM_EMOTIONS" />
+							</element>
+						</element>
+					</element>
+					<element type="Class Feature" name="Expertise" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_EXPERTISE">
+						<element type="Class Feature" name="Expertise (Bard 3)" requiredLevel="3" number="1" checksum="281885ea" registered="ID_EXPERTISE_SKILL_SLEIGHTOFHAND" />
+						<element type="Class Feature" name="Expertise (Bard 3)" requiredLevel="3" number="2" checksum="b111d450" registered="ID_EXPERTISE_SKILL_INSIGHT" />
+					</element>
 				</element>
 				<element type="Background" name="Background" requiredLevel="1" checksum="6a621392" registered="ID_WOTC_ROD_BACKGROUND_SECRET_IDENTITY">
 					<element type="List" name="Personality Trait" requiredLevel="1" number="1" checksum="3022acad" isList="true" registered="3">I think flattery is the best way to direct attention away from me.</element>
-					<element type="List" name="Personality Trait" requiredLevel="1" number="2" checksum="a92bfd17" isList="true" registered="" />
+					<element type="List" name="Personality Trait" requiredLevel="1" number="2" checksum="a92bfd17" isList="true" registered="1">Despite its problems, I love Hillsfar, it's the greatest city in the world. The only one for me.</element>
 					<element type="List" name="Ideal" requiredLevel="1" checksum="dddbf507" isList="true" registered="3">Optimist: Everyone is basically good. Though the government is misguided it will all be okay. (Any)</element>
 					<element type="List" name="Bond" requiredLevel="1" checksum="156c57df" isList="true" registered="5">My secret identity is the only thing protecting me from the Arena. I will stop at nothing to maintain it.</element>
 					<element type="List" name="Flaw" requiredLevel="1" checksum="aa1c5f9f" isList="true" registered="3">I've been lying so often and for so long that I can't help it anymore. I frequently lie for no reason at all.</element>
@@ -175,6 +198,8 @@
 				<element type="Grants" name="Dexterity Modifier" id="ID_INTERNAL_GRANTS_ARMOR_CLASS_DEXTERITY_MODIFIER" />
 				<element type="Grants" name="Constitution Modifier" id="ID_INTERNAL_GRANTS_HP_CONSTITUTION_MODIFIER" />
 			</element>
+			<element type="Level" name="2" id="ID_LEVEL_2" />
+			<element type="Level" name="3" id="ID_LEVEL_3" />
 		</elements>
 		<defenses>
 			<conditional>
@@ -302,7 +327,6 @@
 				</details>
 			</item>
 			<item identifier="5483acc1-0ff3-43c4-b265-05209c84b84d" name="Lute" id="ID_WOTC_SRD_INSTRUMENT_LUTE">
-				<equipped location="Primary Hand">true</equipped>
 				<details card="true">
 					<name>
 					</name>
@@ -318,8 +342,25 @@
 					</notes>
 				</details>
 			</item>
+			<item identifier="3153403d-ac1e-421b-84be-fffdb1a94c96" name="Crossbow, Light" id="ID_WOTC_PHB_WEAPON_CROSSBOW_LIGHT">
+				<equipped location="Two-Handed">true</equipped>
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="1cba9bc4-71bc-4939-8fd6-ee49c677a172" name="Daggers" id="ID_USER_WEAPON_DAGGER" amount="2">
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
 		</equipment>
-		<sum element-count="70">
+		<sum element-count="84">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -342,7 +383,6 @@
 			<element type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DRUM" />
 			<element type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_BAGPIPES" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
-			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
 			<element type="Spell" id="ID_PHB_SPELL_FRIENDS" />
 			<element type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" />
@@ -356,7 +396,12 @@
 			<element type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
 			<element type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT" />
 			<element type="Background Feature" id="ID_WOTC_ROD_BACKGROUND_SECRET_IDENTITY_FEATURE_SECRET_IDENTITY" />
-			<element type="Item" id="ID_WOTC_SRD_INSTRUMENT_LUTE" />
+			<element type="Level" id="ID_LEVEL_2" />
+			<element type="Level" id="ID_LEVEL_3" />
+			<element type="Spell" id="ID_PHB_SPELL_HEALING_WORD" />
+			<element type="Spell" id="ID_PHB_SPELL_THUNDERWAVE" />
+			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_CROSSBOW_LIGHT" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_BARD" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
@@ -390,10 +435,20 @@
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SPELLCASTING_BARD" />
 			<element type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SONG_OF_REST" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARD_COLLEGE" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_EXPERTISE" />
+			<element type="Class Feature" id="ID_EXPERTISE_SKILL_SLEIGHTOFHAND" />
+			<element type="Archetype" id="ID_WOTC_UA20190918_ARCHETYPE_COLLEGE_OF_ELOQUENCE" />
+			<element type="Archetype Feature" id="ID_WOTC_UA20190918_ARCHETYPE_FEATURE_ELOQUENCE_UNIVERSAL_SPEECH" />
+			<element type="Archetype Feature" id="ID_WOTC_UA20190918_ARCHETYPE_FEATURE_ELOQUENCE_SOOTHING_WORDS" />
+			<element type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" />
+			<element type="Class Feature" id="ID_EXPERTISE_SKILL_INSIGHT" />
 		</sum>
 		<magic>
 			<spellcasting name="Bard" ability="Charisma" attack="6" dc="14" source="ID_WOTC_PHB_CLASS_FEATURE_BARD_SPELLCASTING_BARD">
-				<slots s1="2" s2="0" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
+				<slots s1="4" s2="2" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
 				<cantrips>
 					<spell name="Friends" level="0" id="ID_PHB_SPELL_FRIENDS" />
 					<spell name="Prestidigitation" level="0" id="ID_PHB_SPELL_PRESTIDIGITATION" />
@@ -401,8 +456,11 @@
 				<spells>
 					<spell name="Comprehend Languages" level="1" id="ID_PHB_SPELL_COMPREHEND_LANGUAGES" known="true" />
 					<spell name="Cure Wounds" level="1" id="ID_PHB_SPELL_CURE_WOUNDS" known="true" />
+					<spell name="Healing Word" level="1" id="ID_PHB_SPELL_HEALING_WORD" known="true" />
 					<spell name="Sleep" level="1" id="ID_PHB_SPELL_SLEEP" known="true" />
 					<spell name="Tasha’s Hideous Laughter" level="1" id="ID_PHB_SPELL_TASHAS_HIDEOUS_LAUGHTER" known="true" />
+					<spell name="Thunderwave" level="1" id="ID_PHB_SPELL_THUNDERWAVE" known="true" />
+					<spell name="Calm Emotions" level="2" id="ID_PHB_SPELL_CALM_EMOTIONS" known="true" />
 				</spells>
 			</spellcasting>
 		</magic>
