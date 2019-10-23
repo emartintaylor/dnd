@@ -1,13 +1,591 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/.vs
-/gallery
-/portraits
-/custom/unearthed-arcana.index
-/custom/unearthed-arcana
-/custom/supplements.index
-/custom/supplements
-/custom/core.index
-/custom/core
+.vs/5e Character Builder/v16/.suo
+.vs/VSWorkspaceState.json
+.vs/slnx.sqlite
+*.index
+custom/core/dungeon-masters-guide/class-oathbreaker.xml
+custom/core/dungeon-masters-guide/cleric-deathdomain.xml
+custom/core/dungeon-masters-guide/items-armor.xml
+custom/core/dungeon-masters-guide/items-firearms.xml
+custom/core/dungeon-masters-guide/items-poison.xml
+custom/core/dungeon-masters-guide/items-potions.xml
+custom/core/dungeon-masters-guide/items-rings.xml
+custom/core/dungeon-masters-guide/items-rods.xml
+custom/core/dungeon-masters-guide/items-staffs.xml
+custom/core/dungeon-masters-guide/items-vehicles.xml
+custom/core/dungeon-masters-guide/items-wands.xml
+custom/core/dungeon-masters-guide/items-weapons.xml
+custom/core/dungeon-masters-guide/items-wondrous.xml
+custom/core/dungeon-masters-guide/subrace-eladrin.xml
+custom/core/monster-manual/languages.xml
+custom/core/players-handbook/background-acolyte.xml
+custom/core/players-handbook/background-charlatan.xml
+custom/core/players-handbook/background-criminal.xml
+custom/core/players-handbook/background-entertainer.xml
+custom/core/players-handbook/background-folkhero.xml
+custom/core/players-handbook/background-guildartisan.xml
+custom/core/players-handbook/background-hermit.xml
+custom/core/players-handbook/background-noble.xml
+custom/core/players-handbook/background-outlander.xml
+custom/core/players-handbook/background-sage.xml
+custom/core/players-handbook/background-sailer.xml
+custom/core/players-handbook/background-soldier.xml
+custom/core/players-handbook/background-urchin.xml
+custom/core/players-handbook/class-barbarian.xml
+custom/core/players-handbook/class-bard.xml
+custom/core/players-handbook/class-cleric.xml
+custom/core/players-handbook/class-druid.xml
+custom/core/players-handbook/class-fighter.xml
+custom/core/players-handbook/class-monk.xml
+custom/core/players-handbook/class-paladin.xml
+custom/core/players-handbook/class-ranger.xml
+custom/core/players-handbook/class-rogue.xml
+custom/core/players-handbook/class-sorcerer.xml
+custom/core/players-handbook/class-warlock.xml
+custom/core/players-handbook/class-wizard.xml
+custom/core/players-handbook/companions.xml
+custom/core/players-handbook/deities.xml
+custom/core/players-handbook/feats.xml
+custom/core/players-handbook/items-armor.xml
+custom/core/players-handbook/items-gear.xml
+custom/core/players-handbook/items-instrument.xml
+custom/core/players-handbook/items-mounts.xml
+custom/core/players-handbook/items-packs.xml
+custom/core/players-handbook/items-tools.xml
+custom/core/players-handbook/items-weapons.xml
+custom/core/players-handbook/race-dragonborn.xml
+custom/core/players-handbook/race-dwarf.xml
+custom/core/players-handbook/race-elf.xml
+custom/core/players-handbook/race-gnome.xml
+custom/core/players-handbook/race-halfelf.xml
+custom/core/players-handbook/race-halfling.xml
+custom/core/players-handbook/race-halforc.xml
+custom/core/players-handbook/race-human.xml
+custom/core/players-handbook/race-tiefling.xml
+custom/core/players-handbook/spells.xml
+custom/core/sources.xml
+custom/supplements/acquisitions-incorporated/celebrity-adventurers-scion.xml
+custom/supplements/acquisitions-incorporated/failed-merchant.xml
+custom/supplements/acquisitions-incorporated/gambler.xml
+custom/supplements/acquisitions-incorporated/items.xml
+custom/supplements/acquisitions-incorporated/plaintiff.xml
+custom/supplements/acquisitions-incorporated/rival-intern.xml
+custom/supplements/acquisitions-incorporated/source.xml
+custom/supplements/acquisitions-incorporated/spells.xml
+custom/supplements/acquisitions-incorporated/vehicles.xml
+custom/supplements/acquisitions-incorporated/verdan.xml
+custom/supplements/curse-of-strahd/background-blackfistdoubleagent.xml
+custom/supplements/curse-of-strahd/background-dragoncasualty.xml
+custom/supplements/curse-of-strahd/background-hauntedone.xml
+custom/supplements/curse-of-strahd/background-ironroutebandit.xml
+custom/supplements/curse-of-strahd/background-phlaninsurgent.xml
+custom/supplements/curse-of-strahd/background-strojanowprisoner.xml
+custom/supplements/curse-of-strahd/background-ticklebellynomad.xml
+custom/supplements/curse-of-strahd/items.xml
+custom/supplements/descent-into-avernus/background-options.xml
+custom/supplements/descent-into-avernus/faceless.xml
+custom/supplements/descent-into-avernus/items.xml
+custom/supplements/descent-into-avernus/source.xml
+custom/supplements/ghosts-of-saltmarsh/fisher.xml
+custom/supplements/ghosts-of-saltmarsh/items.xml
+custom/supplements/ghosts-of-saltmarsh/marine.xml
+custom/supplements/ghosts-of-saltmarsh/shipwright.xml
+custom/supplements/ghosts-of-saltmarsh/smuggler.xml
+custom/supplements/guildmasters-guide-to-ravnica/azorius-functionary.xml
+custom/supplements/guildmasters-guide-to-ravnica/boros-legionnaire.xml
+custom/supplements/guildmasters-guide-to-ravnica/centaur.xml
+custom/supplements/guildmasters-guide-to-ravnica/cleric-orderdomain.xml
+custom/supplements/guildmasters-guide-to-ravnica/dimir-operative.xml
+custom/supplements/guildmasters-guide-to-ravnica/druid-circleofspores.xml
+custom/supplements/guildmasters-guide-to-ravnica/goblin.xml
+custom/supplements/guildmasters-guide-to-ravnica/golgari-agent.xml
+custom/supplements/guildmasters-guide-to-ravnica/gruul-anarch.xml
+custom/supplements/guildmasters-guide-to-ravnica/items.xml
+custom/supplements/guildmasters-guide-to-ravnica/izzet-engineer.xml
+custom/supplements/guildmasters-guide-to-ravnica/languages.xml
+custom/supplements/guildmasters-guide-to-ravnica/loxodon.xml
+custom/supplements/guildmasters-guide-to-ravnica/minotaur.xml
+custom/supplements/guildmasters-guide-to-ravnica/orzhov-representative.xml
+custom/supplements/guildmasters-guide-to-ravnica/rakdos-cultist.xml
+custom/supplements/guildmasters-guide-to-ravnica/selesnya-initiate.xml
+custom/supplements/guildmasters-guide-to-ravnica/simic-hybrid.xml
+custom/supplements/guildmasters-guide-to-ravnica/simic-scientist.xml
+custom/supplements/guildmasters-guide-to-ravnica/spells.xml
+custom/supplements/guildmasters-guide-to-ravnica/vedalken.xml
+custom/supplements/hoard-of-the-dragon-queen/background-options.xml
+custom/supplements/hoard-of-the-dragon-queen/items.xml
+custom/supplements/locathah-rising/race-locathah.xml
+custom/supplements/lost-laboratory-of-kwalish/spells.xml
+custom/supplements/lost-mines-phandelver/items.xml
+custom/supplements/lost-mines-phandelver/source.xml
+custom/supplements/mordenkainens-tome-of-foes/race-gith.xml
+custom/supplements/mordenkainens-tome-of-foes/subrace-eladrin.xml
+custom/supplements/mordenkainens-tome-of-foes/subrace-seaelf.xml
+custom/supplements/mordenkainens-tome-of-foes/subrace-shadarkai.xml
+custom/supplements/mordenkainens-tome-of-foes/subrace-tiefling.xml
+custom/supplements/out-of-the-abyss/background-cromanthorrefugee.xml
+custom/supplements/out-of-the-abyss/background-gateurchin.xml
+custom/supplements/out-of-the-abyss/background-hillsfarmerchant.xml
+custom/supplements/out-of-the-abyss/background-hillsfarsmuggler.xml
+custom/supplements/out-of-the-abyss/background-options.xml
+custom/supplements/out-of-the-abyss/background-secretidentity.xml
+custom/supplements/out-of-the-abyss/background-shadefanatic.xml
+custom/supplements/out-of-the-abyss/background-tradesheriff.xml
+custom/supplements/out-of-the-abyss/items.xml
+custom/supplements/princes-of-the-apocalypse/items.xml
+custom/supplements/princes-of-the-apocalypse/race-aarakocra.xml
+custom/supplements/princes-of-the-apocalypse/race-genasi.xml
+custom/supplements/princes-of-the-apocalypse/spells.xml
+custom/supplements/rise-of-tiamat/items.xml
+custom/supplements/sources.xml
+custom/supplements/storm-kings-thunder/items.xml
+custom/supplements/sword-coast-adventurers-guide/archetype-mastermind.xml
+custom/supplements/sword-coast-adventurers-guide/archetype-swashbuckler.xml
+custom/supplements/sword-coast-adventurers-guide/background-citywatch.xml
+custom/supplements/sword-coast-adventurers-guide/background-clancrafter.xml
+custom/supplements/sword-coast-adventurers-guide/background-cloisteredscholar.xml
+custom/supplements/sword-coast-adventurers-guide/background-courtier.xml
+custom/supplements/sword-coast-adventurers-guide/background-factionagent.xml
+custom/supplements/sword-coast-adventurers-guide/background-fartraveler.xml
+custom/supplements/sword-coast-adventurers-guide/background-inheritor.xml
+custom/supplements/sword-coast-adventurers-guide/background-knightoftheorder.xml
+custom/supplements/sword-coast-adventurers-guide/background-mercenaryveteran.xml
+custom/supplements/sword-coast-adventurers-guide/background-urbanbountyhunter.xml
+custom/supplements/sword-coast-adventurers-guide/background-uthgardttribemember.xml
+custom/supplements/sword-coast-adventurers-guide/background-waterdhaviannoble.xml
+custom/supplements/sword-coast-adventurers-guide/barbarian-battlerager.xml
+custom/supplements/sword-coast-adventurers-guide/barbarian-totemwarrior.xml
+custom/supplements/sword-coast-adventurers-guide/cleric-arcanadomain.xml
+custom/supplements/sword-coast-adventurers-guide/fighter-purpledragonknight.xml
+custom/supplements/sword-coast-adventurers-guide/monk-longdeath.xml
+custom/supplements/sword-coast-adventurers-guide/monk-sunsoul.xml
+custom/supplements/sword-coast-adventurers-guide/musical-instruments.xml
+custom/supplements/sword-coast-adventurers-guide/paladin-thecrown.xml
+custom/supplements/sword-coast-adventurers-guide/race-duergar.xml
+custom/supplements/sword-coast-adventurers-guide/race-ghostwisehalfling.xml
+custom/supplements/sword-coast-adventurers-guide/race-svirfneblin.xml
+custom/supplements/sword-coast-adventurers-guide/sorcerer-stormsorcery.xml
+custom/supplements/sword-coast-adventurers-guide/spells.xml
+custom/supplements/sword-coast-adventurers-guide/variant-half-elf.xml
+custom/supplements/sword-coast-adventurers-guide/variant-tiefling.xml
+custom/supplements/sword-coast-adventurers-guide/warlock-theundying.xml
+custom/supplements/sword-coast-adventurers-guide/wizard-bladesinging.xml
+custom/supplements/tales-from-the-yawning-portal/items.xml
+custom/supplements/tomb-of-annihilation/background-anthropologist.xml
+custom/supplements/tomb-of-annihilation/background-archaeologist.xml
+custom/supplements/tomb-of-annihilation/race-tortle.xml
+custom/supplements/volos-guide-to-monsters/monstrous-adventurers.xml
+custom/supplements/volos-guide-to-monsters/race-aasimar.xml
+custom/supplements/volos-guide-to-monsters/race-firbolg.xml
+custom/supplements/volos-guide-to-monsters/race-goliath.xml
+custom/supplements/volos-guide-to-monsters/race-kenku.xml
+custom/supplements/volos-guide-to-monsters/race-lizardfolk.xml
+custom/supplements/volos-guide-to-monsters/race-tabaxi.xml
+custom/supplements/volos-guide-to-monsters/race-triton.xml
+custom/supplements/volos-guide-to-monsters/spells.xml
+custom/supplements/xanathars-guide-to-everything/barbarian-ancestralguardian.xml
+custom/supplements/xanathars-guide-to-everything/barbarian-stormherald.xml
+custom/supplements/xanathars-guide-to-everything/barbarian-zealot.xml
+custom/supplements/xanathars-guide-to-everything/bard-glamour.xml
+custom/supplements/xanathars-guide-to-everything/bard-swords.xml
+custom/supplements/xanathars-guide-to-everything/bard-whispers.xml
+custom/supplements/xanathars-guide-to-everything/cleric-forgedomain.xml
+custom/supplements/xanathars-guide-to-everything/cleric-gravedomain.xml
+custom/supplements/xanathars-guide-to-everything/druid-dreams.xml
+custom/supplements/xanathars-guide-to-everything/druid-shepherd.xml
+custom/supplements/xanathars-guide-to-everything/eldritch-invocations.xml
+custom/supplements/xanathars-guide-to-everything/feats.xml
+custom/supplements/xanathars-guide-to-everything/fighter-arcanearcher.xml
+custom/supplements/xanathars-guide-to-everything/fighter-cavalier.xml
+custom/supplements/xanathars-guide-to-everything/fighter-samurai.xml
+custom/supplements/xanathars-guide-to-everything/items-wondrous.xml
+custom/supplements/xanathars-guide-to-everything/monk-drunkenmaster.xml
+custom/supplements/xanathars-guide-to-everything/monk-kensei.xml
+custom/supplements/xanathars-guide-to-everything/monk-sunsoul.xml
+custom/supplements/xanathars-guide-to-everything/paladin-conquest.xml
+custom/supplements/xanathars-guide-to-everything/paladin-redemption.xml
+custom/supplements/xanathars-guide-to-everything/ranger-gloomstalker.xml
+custom/supplements/xanathars-guide-to-everything/ranger-horizonwalker.xml
+custom/supplements/xanathars-guide-to-everything/ranger-monsterslayer.xml
+custom/supplements/xanathars-guide-to-everything/rogue-inquisitive.xml
+custom/supplements/xanathars-guide-to-everything/rogue-mastermind.xml
+custom/supplements/xanathars-guide-to-everything/rogue-scout.xml
+custom/supplements/xanathars-guide-to-everything/rogue-swashbuckler.xml
+custom/supplements/xanathars-guide-to-everything/sorcerer-divinesoul.xml
+custom/supplements/xanathars-guide-to-everything/sorcerer-shadowmagic.xml
+custom/supplements/xanathars-guide-to-everything/sorcerer-stormsorcery.xml
+custom/supplements/xanathars-guide-to-everything/spells.xml
+custom/supplements/xanathars-guide-to-everything/warlock-celestial.xml
+custom/supplements/xanathars-guide-to-everything/warlock-hexblade.xml
+custom/supplements/xanathars-guide-to-everything/wizard-warmagic.xml
+custom/unearthed-arcana/20150202.xml
+custom/unearthed-arcana/20150504.xml
+custom/unearthed-arcana/20150803.xml
+custom/unearthed-arcana/20151102.xml
+custom/unearthed-arcana/20151207.xml
+custom/unearthed-arcana/20160104.xml
+custom/unearthed-arcana/20160404.xml
+custom/unearthed-arcana/20160606.xml
+custom/unearthed-arcana/20160801.xml
+custom/unearthed-arcana/20161121.xml
+custom/unearthed-arcana/20161205.xml
+custom/unearthed-arcana/20161212.xml
+custom/unearthed-arcana/20161219.xml
+custom/unearthed-arcana/20170109.xml
+custom/unearthed-arcana/20170117.xml
+custom/unearthed-arcana/20170206.xml
+custom/unearthed-arcana/20170213.xml
+custom/unearthed-arcana/20170313.xml
+custom/unearthed-arcana/20170403.xml
+custom/unearthed-arcana/20170417.xml
+custom/unearthed-arcana/20170424.xml
+custom/unearthed-arcana/20170605.xml
+custom/unearthed-arcana/20171009.xml
+custom/unearthed-arcana/20171113.xml
+custom/unearthed-arcana/20180108.xml
+custom/unearthed-arcana/20180212.xml
+custom/unearthed-arcana/20180409.xml
+custom/unearthed-arcana/20180514.xml
+custom/unearthed-arcana/20180611.xml
+custom/unearthed-arcana/20180723.xml
+custom/unearthed-arcana/20180813.xml
+custom/unearthed-arcana/20180910.xml
+custom/unearthed-arcana/20181008.xml
+custom/unearthed-arcana/20181112.xml
+custom/unearthed-arcana/20181217.xml
+custom/unearthed-arcana/20190228.xml
+custom/unearthed-arcana/20190514.xml
+custom/unearthed-arcana/20190815.xml
+custom/unearthed-arcana/20190905.xml
+custom/unearthed-arcana/20190918.xml
+custom/unearthed-arcana/20191003.xml
+custom/unearthed-arcana/planeshift/background-initiate.xml
+custom/unearthed-arcana/planeshift/background-inquisitor.xml
+custom/unearthed-arcana/planeshift/background-vizier.xml
+custom/unearthed-arcana/planeshift/cleric-ambition.xml
+custom/unearthed-arcana/planeshift/cleric-solidarity.xml
+custom/unearthed-arcana/planeshift/cleric-strength.xml
+custom/unearthed-arcana/planeshift/cleric-zeal.xml
+custom/unearthed-arcana/planeshift/feats-ixalan.xml
+custom/unearthed-arcana/planeshift/feats-kaladesh.xml
+custom/unearthed-arcana/planeshift/race-aetherborn.xml
+custom/unearthed-arcana/planeshift/race-aven.xml
+custom/unearthed-arcana/planeshift/race-goblin.xml
+custom/unearthed-arcana/planeshift/race-human-innistrad.xml
+custom/unearthed-arcana/planeshift/race-keldon-human.xml
+custom/unearthed-arcana/planeshift/race-khenra.xml
+custom/unearthed-arcana/planeshift/race-kor.xml
+custom/unearthed-arcana/planeshift/race-merfolk.xml
+custom/unearthed-arcana/planeshift/race-minotaur.xml
+custom/unearthed-arcana/planeshift/race-naga.xml
+custom/unearthed-arcana/planeshift/race-siren.xml
+custom/unearthed-arcana/planeshift/race-vampire.xml
+custom/unearthed-arcana/planeshift/race-vedalken.xml
+custom/unearthed-arcana/planeshift/sorcerer-pyromancer.xml
+custom/unearthed-arcana/planeshift/sources.xml
+custom/unearthed-arcana/planeshift/subrace-dwarf.xml
+custom/unearthed-arcana/planeshift/subrace-elf-kaladesh.xml
+custom/unearthed-arcana/planeshift/subrace-elf-zendikar.xml
+custom/unearthed-arcana/planeshift/subrace-merfolk.xml
+gallery/companions/bat.jpg
+gallery/companions/bear.jpg
+gallery/companions/beast.jpg
+gallery/companions/beetle.jpg
+gallery/companions/boar.jpg
+gallery/companions/cat.jpg
+gallery/companions/cat2.jpg
+gallery/companions/cat3.jpg
+gallery/companions/deer.jpg
+gallery/companions/deer2.jpg
+gallery/companions/default-portrait.jpg
+gallery/companions/dog.jpg
+gallery/companions/frog.jpg
+gallery/companions/goat.jpg
+gallery/companions/hawk.jpg
+gallery/companions/hawk2.jpg
+gallery/companions/hawk3.jpg
+gallery/companions/hyena.jpg
+gallery/companions/lizard.jpg
+gallery/companions/mastiff.jpg
+gallery/companions/octopus.jpg
+gallery/companions/octopus2.jpg
+gallery/companions/owl.jpg
+gallery/companions/owl2.jpg
+gallery/companions/panther.jpg
+gallery/companions/pteranodon.jpg
+gallery/companions/raven.jpg
+gallery/companions/shark.jpg
+gallery/companions/snake.jpg
+gallery/companions/snake2.jpg
+gallery/companions/spider.jpg
+gallery/companions/stirge.jpg
+gallery/companions/wolf.jpg
+gallery/companions/wolf2.jpg
+gallery/companions/wolf3.jpg
+gallery/symbols/Faction Emerald Enclave.png
+gallery/symbols/Faction Harper.png
+gallery/symbols/Faction LordsAlliance.png
+gallery/symbols/Faction OrderGauntlet.jpg
+gallery/symbols/Faction Zhentarim.png
+gallery/symbols/Guild Azorius Senate.png
+gallery/symbols/Guild Boros Legion.png
+gallery/symbols/Guild Cult of Rakdos.png
+gallery/symbols/Guild Golgari Swarm.png
+gallery/symbols/Guild Gruul Clans.png
+gallery/symbols/Guild House Dimir.png
+gallery/symbols/Guild Izzet League.png
+gallery/symbols/Guild Orzhov Syndicate.png
+gallery/symbols/Guild Selesnya Conclave.png
+gallery/symbols/Guild Simic Combine.png
+gallery/symbols/Symbol of Amaunator.png
+gallery/symbols/Symbol of Asmodeus.png
+gallery/symbols/Symbol of Auril.png
+gallery/symbols/Symbol of Azuth.png
+gallery/symbols/Symbol of Bane.png
+gallery/symbols/Symbol of Beshaba.png
+gallery/symbols/Symbol of Bhaal.png
+gallery/symbols/Symbol of Chauntea.png
+gallery/symbols/Symbol of Cyric.png
+gallery/symbols/Symbol of Deneir.png
+gallery/symbols/Symbol of Eldath.png
+gallery/symbols/Symbol of Gond.png
+gallery/symbols/Symbol of Helm.png
+gallery/symbols/Symbol of Hoar.png
+gallery/symbols/Symbol of Ilmater.png
+gallery/symbols/Symbol of Jergal.png
+gallery/symbols/Symbol of Kelemvor.png
+gallery/symbols/Symbol of Lathander.png
+gallery/symbols/Symbol of Leira.png
+gallery/symbols/Symbol of Lliira.png
+gallery/symbols/Symbol of Loviatar.png
+gallery/symbols/Symbol of Malar.png
+gallery/symbols/Symbol of Mask.png
+gallery/symbols/Symbol of Mielikki.png
+gallery/symbols/Symbol of Myrkul.png
+gallery/symbols/Symbol of Mystra.png
+gallery/symbols/Symbol of Oghma.png
+gallery/symbols/Symbol of Savras.png
+gallery/symbols/Symbol of Selune.png
+gallery/symbols/Symbol of Silvanus.png
+gallery/symbols/Symbol of Sune.png
+gallery/symbols/Symbol of Talona.png
+gallery/symbols/Symbol of Talos.png
+gallery/symbols/Symbol of Tempus.png
+gallery/symbols/Symbol of The Red Knight.png
+gallery/symbols/Symbol of Torm.png
+gallery/symbols/Symbol of Tyr.png
+gallery/symbols/Symbol of Umberlee.png
+gallery/symbols/Symbol of Waukeen.png
+portraits/aarakocra female.png
+portraits/aasimar female 2.png
+portraits/aasimar female 3.png
+portraits/aasimar female.png
+portraits/aasimar male 2.png
+portraits/aasimar male.png
+portraits/bugbear 2.png
+portraits/bugbear.png
+portraits/centaur female.jpg
+portraits/centaur male.jpg
+portraits/changeling human female bard 2.jpg
+portraits/changeling human female bard.jpg
+portraits/changeling-female.png
+portraits/changeling-male.png
+portraits/dark elf female ranger.jpg
+portraits/dark elf female rogue.jpg
+portraits/dark elf female.jpg
+portraits/dark elf male avenger.png
+portraits/dark elf male fighter 2.jpg
+portraits/dark elf male fighter.jpg
+portraits/dark elf male rogue 2.jpg
+portraits/dark elf male sorcerer.png
+portraits/default.png
+portraits/deva female.jpg
+portraits/deva male.jpg
+portraits/deva-male.png
+portraits/dragonborn female sorcerer.jpg
+portraits/dragonborn female.jpg
+portraits/dragonborn male fighter.jpg
+portraits/dragonborn male rogue.jpg
+portraits/dragonborn male sorcerer 2.jpg
+portraits/dragonborn male sorcerer.jpg
+portraits/dragonborn male wizard 2.jpg
+portraits/dragonborn male wizard.jpg
+portraits/dragonborn-female-1.png
+portraits/dragonborn-male-1.png
+portraits/duergar-female.png
+portraits/dwarf male cleric.jpg
+portraits/dwarf male monk.jpg
+portraits/dwarf male.jpg
+portraits/dwarf-female-2.png
+portraits/dwarf-female.png
+portraits/dwarf-male-1.png
+portraits/dwarf-male-2.png
+portraits/dwarf-male-3.png
+portraits/dwarf-male-4.png
+portraits/dwarf-male-5.png
+portraits/dwarf-male-6.png
+portraits/dwarf-male-7.png
+portraits/dwarf-male-8.png
+portraits/eladrin-male.png
+portraits/elf femal.jpg
+portraits/elf female druid.jpg
+portraits/elf female ranger 2.jpg
+portraits/elf female ranger.jpg
+portraits/elf female warlock.jpg
+portraits/elf high elf elf femal.jpg
+portraits/elf male ranger.jpg
+portraits/elf-drow-female.png
+portraits/elf-female-druid.png
+portraits/elf-male-1.png
+portraits/elf-male-3.png
+portraits/elf-male-4.png
+portraits/elf-male-5.png
+portraits/elf-male-wizard.png
+portraits/elf-male.png
+portraits/elf-ranger-female.png
+portraits/firbolg female.jpg
+portraits/firbolg male 2.jpg
+portraits/firbolg male.jpg
+portraits/genasi female.png
+portraits/genasi male earth 2.png
+portraits/genasi male earth.png
+portraits/genasi-male.png
+portraits/gith female 2.jpg
+portraits/gith female.jpg
+portraits/gith male 2.jpg
+portraits/gith male.jpg
+portraits/gith male.png
+portraits/gnome male bard.jpg
+portraits/gnome male sorcerer.jpg
+portraits/gnome male wizard.jpg
+portraits/gnome male.jpg
+portraits/gnome-caster-male.png
+portraits/gnome-female.png
+portraits/gnome-male.png
+portraits/goliath male druid.jpg
+portraits/goliath-female.png
+portraits/goliath-male.png
+portraits/half elf female.jpg
+portraits/half elf-male-2.png
+portraits/half elf-male.png
+portraits/half orc female fighter.jpg
+portraits/half orc female.jpg
+portraits/half orc male barbarian.jpg
+portraits/half orc male bard.jpg
+portraits/half orc male monk.jpg
+portraits/half orc male.jpg
+portraits/half orc-female.png
+portraits/half orc-male.png
+portraits/halfling female 2.jpg
+portraits/halfling female 3.jpg
+portraits/halfling female.jpg
+portraits/halfling lightfoot halfling halfling male rogue.jpg
+portraits/halfling male bard.jpg
+portraits/halfling male rogue.jpg
+portraits/halfling male.jpg
+portraits/hobgoblin.png
+portraits/human female barbarian 2.jpg
+portraits/human female barbarian.png
+portraits/human female bard 2.jpg
+portraits/human female bard.jpg
+portraits/human female fighter.jpg
+portraits/human female sorcerer.jpg
+portraits/human female wizard.jpg
+portraits/human male artificer.jpg
+portraits/human male fighter.jpg
+portraits/human male monk.jpg
+portraits/human male ranger 2.jpg
+portraits/human male rogue.jpg
+portraits/human male sorcerer.jpg
+portraits/human male wizard 2.jpg
+portraits/human male wizard 3.jpg
+portraits/human male wizard 4.png
+portraits/human male wizard.jpg
+portraits/human-barbarian-male.png
+portraits/human-female-1.png
+portraits/human-female-2.png
+portraits/human-female-3.png
+portraits/human-female-monk.png
+portraits/human-female-paladin.png
+portraits/human-male-1.png
+portraits/human-male-2.png
+portraits/human-male-cleric.png
+portraits/human-male-paladin.png
+portraits/human-male-sorcerer.png
+portraits/kalashtar-female.png
+portraits/kalashtar-male.png
+portraits/kenku 3.png
+portraits/kenku-1.png
+portraits/kenku-2.png
+portraits/kobold male 3.png
+portraits/kobold male druid.png
+portraits/kobold male.jpg
+portraits/kobold male.png
+portraits/kobold sorcerer.png
+portraits/kobold.png
+portraits/lizardfolk 2.png
+portraits/lizardfolk 3.png
+portraits/lizardfolk 4.png
+portraits/lizardfolk male.jpg
+portraits/lizardfolk.png
+portraits/loxodon druid.jpg
+portraits/loxodon1.jpg
+portraits/loxodon2.jpg
+portraits/loxodon3.jpg
+portraits/loxodon4.jpg
+portraits/minotaur female.png
+portraits/minotaur male 2.png
+portraits/minotaur male 3.png
+portraits/minotaur male.png
+portraits/orc female.jpg
+portraits/orc male barbarian 2.jpg
+portraits/orc male barbarian.jpg
+portraits/orc male fighter.jpg
+portraits/orc male warlock.jpg
+portraits/revenant-male.png
+portraits/shadar kai female.png
+portraits/shardmind male 2.png
+portraits/shardmind male.png
+portraits/shifter female.png
+portraits/shifter male 2.png
+portraits/shifter male.png
+portraits/shifter-female.png
+portraits/shifter-male.png
+portraits/simic hybrid female.jpg
+portraits/simic hybrid male.jpg
+portraits/svirfneblin female.jpg
+portraits/svirfneblin male.jpg
+portraits/tabaxi 2.png
+portraits/tabaxi 3.png
+portraits/tabaxi female 2.png
+portraits/tabaxi female.png
+portraits/tabaxi male 2.png
+portraits/tabaxi male.png
+portraits/tabaxi.png
+portraits/the-iron-giant_852.0.0.png
+portraits/tiefling female 1.jpg
+portraits/tiefling female 2.jpg
+portraits/tiefling female sorcerer.jpg
+portraits/tiefling male sorcerer.jpg
+portraits/tiefling male.jpg
+portraits/tiefling-female-1.png
+portraits/tiefling-female.png
+portraits/tiefling-male-1.png
+portraits/tiefling-male-2.png
+portraits/tiefling-male-3.png
+portraits/triton female 2.png
+portraits/triton male 2.png
+portraits/triton male 3.png
+portraits/triton male.png
+portraits/vashino.jpg
+portraits/vedalken female.jpg
+portraits/vedalken male.jpg
+portraits/warforged 2.png
+portraits/warforged 3.png
+portraits/warforged 4.jpg
+portraits/warforged the-iron-giant_852.0.0.png
+portraits/warforged.png
+portraits/wood elf female ranger 2.jpg
+portraits/wood elf female rogue.jpg
+portraits/yuan ti pureblood female 1.jpg
+portraits/yuan ti pureblood female.jpg
+portraits/yuan ti pureblood male.jpg
