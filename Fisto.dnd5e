@@ -13,7 +13,7 @@
 		<archetype>
 		</archetype>
 		<background>Acolyte</background>
-		<level>6</level>
+		<level>7</level>
 		<portrait>
 			<companion>
 			</companion>
@@ -27,7 +27,7 @@
 			<name>Fisto</name>
 			<gender>Male</gender>
 			<player-name>Player One</player-name>
-			<experience>14000</experience>
+			<experience>23000</experience>
 			<attacks>
 				<description><![CDATA[Cunning Insight - Gain Advantage on all attacks on a round (Usable only once)
 
@@ -50,6 +50,9 @@ Can move or attack, or move at half speed and half can attack
 				</attack>
 				<attack identifier="21f922bb-7d4b-4562-9e83-eaab86c25e4c" name="Sixth Sword" range="5 ft" attack="+5 vs AC" damage="1d8 + 5 piercing" displayed="true" ability="Dexterity">
 					<description><![CDATA[Finesse, Magical]]></description>
+				</attack>
+				<attack identifier="26d35397-e509-4d40-a1bd-66745c689739" name="Dagger of Venom" range="20/60" attack="+7 vs AC" damage="1d4 + 5 piercing" displayed="true" ability="Dexterity">
+					<description><![CDATA[Finesse, Light, Thrown]]></description>
 				</attack>
 			</attacks>
 			<backstory><![CDATA[You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You are not necessarily a cleric—performing sacred rites is not the same thing as channeling divine power.
@@ -110,7 +113,7 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 			<wisdom>14</wisdom>
 			<charisma>11</charisma>
 		</abilities>
-		<elements level-count="6" registered-count="27">
+		<elements level-count="7" registered-count="28">
 			<element type="Option" name="Average Hit Points" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Level" name="1" id="ID_LEVEL_1" rndhp="8,3,1,7,1,2,7,2,1,2,1,3,7,6,1,4,4,1,1,5">
@@ -179,6 +182,8 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 					<element type="Class Feature" name="Extra Attack" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_EXTRA_ATTACK_MONK" />
 					<element type="Class Feature" name="Stunning Strike" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_STUNNING_STRIKE" />
 					<element type="Class Feature" name="Ki-Empowered Strikes" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI-EMPOWERED_STRIKES" />
+					<element type="Class Feature" name="Evasion" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_EVASION_MONK" />
+					<element type="Class Feature" name="Stillness of Mind" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_STILLNESS_OF_MIND" />
 				</element>
 				<element type="Background" name="Background" requiredLevel="1" checksum="6a621392" registered="ID_BACKGROUND_ACOLYTE">
 					<element type="Language" name="Language (Acolyte)" requiredLevel="1" number="1" checksum="335a9891" registered="ID_LANGUAGE_ELVISH" />
@@ -206,9 +211,7 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 			<element type="Level" name="4" id="ID_LEVEL_4" />
 			<element type="Level" name="5" id="ID_LEVEL_5" />
 			<element type="Level" name="6" id="ID_LEVEL_6" />
-			<element type="Magic Item" name="Wind Fan Swords" id="ID_USER_DMG_MAGIC_ITEM_WIND_FAN_SWORD">
-				<element type="Spell" name="Gust of Wind" id="ID_PHB_SPELL_GUST_OF_WIND" />
-			</element>
+			<element type="Level" name="7" id="ID_LEVEL_7" />
 		</elements>
 		<defenses>
 			<conditional>
@@ -392,8 +395,6 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 				</details>
 			</item>
 			<item identifier="d9d7aa10-71ee-464a-91e3-1dd1369821a7" name="Shortsword" id="ID_WOTC_PHB_WEAPON_SHORTSWORD">
-				<equipped location="Primary Hand">true</equipped>
-				<attunement>true</attunement>
 				<items>
 					<adorner name="Wind Fan Swords" id="ID_USER_DMG_MAGIC_ITEM_WIND_FAN_SWORD" />
 				</items>
@@ -421,8 +422,20 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 					</notes>
 				</details>
 			</item>
+			<item identifier="26d35397-e509-4d40-a1bd-66745c689739" name="Dagger" id="ID_WOTC_PHB_WEAPON_DAGGER">
+				<equipped location="Primary Hand">true</equipped>
+				<items>
+					<adorner name="Dagger of Venom" id="ID_WOTC_DMG_MAGIC_ITEM_DAGGER_OF_VENOM" />
+				</items>
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
 		</equipment>
-		<sum element-count="81">
+		<sum element-count="83">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Level" id="ID_LEVEL_1" />
@@ -460,10 +473,10 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 			<element type="Level" id="ID_LEVEL_6" />
 			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_EYES_OF_CHARMING" />
 			<element type="Magic Item" id="ID_USER_DMG_MAGIC_ITEM_SIXTH_SWORD" />
-			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_SHORTSWORD" />
-			<element type="Magic Item" id="ID_USER_DMG_MAGIC_ITEM_WIND_FAN_SWORD" />
-			<element type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" />
 			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_BOOTS_OF_ELVENKIND" />
+			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_DAGGER" />
+			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_DAGGER_OF_VENOM" />
+			<element type="Level" id="ID_LEVEL_7" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_MONK" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS" />
@@ -500,16 +513,14 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_EXTRA_ATTACK_MONK" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_STUNNING_STRIKE" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI-EMPOWERED_STRIKES" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_EVASION_MONK" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_STILLNESS_OF_MIND" />
 			<element type="Archetype" id="ID_WOTC_PHB_ARCHETYPE_WAY_OF_THE_OPEN_HAND" />
 			<element type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAYOFTHEOPENHAND_OPEN_HAND_TECHNIQUE" />
 			<element type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAYOFTHEOPENHAND_WHOLENESS_OF_BODY" />
 			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_FEAT_4_MONK" />
 		</sum>
-		<magic>
-			<additional>
-				<spell name="Gust of Wind" level="2" id="ID_PHB_SPELL_GUST_OF_WIND" source="Wind Fan Swords" />
-			</additional>
-		</magic>
+		<magic />
 	</build>
 	<!-- restricted sources -->
 	<sources>
