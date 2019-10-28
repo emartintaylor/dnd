@@ -159,9 +159,11 @@ Despite its problems, I love Hillsfar, it's the greatest city in the world. The 
 					<element type="Class Feature" name="Jack of All Trades" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES" />
 					<element type="Class Feature" name="Song of Rest" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SONG_OF_REST" />
 					<element type="Class Feature" name="Bard College" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARD_COLLEGE">
-						<element type="Archetype" name="Bard College" requiredLevel="3" checksum="15878cb4" registered="ID_WOTC_XGTE_ARCHETYPE_COLLEGE_OF_GLAMOUR">
-							<element type="Archetype Feature" name="Mantle of Inspiration" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_GLAMOUR_MANTLE_OF_INSPIRATION" />
-							<element type="Archetype Feature" name="Enthralling Performance" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_GLAMOUR_ENTHRALLING_PERFORMANCE" />
+						<element type="Archetype" name="Bard College" requiredLevel="3" checksum="15878cb4" registered="ID_WOTC_UA20190918_ARCHETYPE_COLLEGE_OF_ELOQUENCE">
+							<element type="Archetype Feature" name="Universal Speech" id="ID_WOTC_UA20190918_ARCHETYPE_FEATURE_ELOQUENCE_UNIVERSAL_SPEECH" />
+							<element type="Archetype Feature" name="Soothing Words" id="ID_WOTC_UA20190918_ARCHETYPE_FEATURE_ELOQUENCE_SOOTHING_WORDS">
+								<element type="Spell" name="Calm Emotions" id="ID_PHB_SPELL_CALM_EMOTIONS" />
+							</element>
 						</element>
 					</element>
 					<element type="Class Feature" name="Expertise" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_EXPERTISE">
@@ -360,7 +362,7 @@ Despite its problems, I love Hillsfar, it's the greatest city in the world. The 
 				</details>
 			</item>
 		</equipment>
-		<sum element-count="82">
+		<sum element-count="83">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Level" id="ID_LEVEL_1" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_CHARACTER_BASE" />
@@ -440,9 +442,10 @@ Despite its problems, I love Hillsfar, it's the greatest city in the world. The 
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_EXPERTISE" />
 			<element type="Class Feature" id="ID_EXPERTISE_SKILL_SLEIGHTOFHAND" />
 			<element type="Class Feature" id="ID_EXPERTISE_SKILL_INSIGHT" />
-			<element type="Archetype" id="ID_WOTC_XGTE_ARCHETYPE_COLLEGE_OF_GLAMOUR" />
-			<element type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_GLAMOUR_MANTLE_OF_INSPIRATION" />
-			<element type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_GLAMOUR_ENTHRALLING_PERFORMANCE" />
+			<element type="Archetype" id="ID_WOTC_UA20190918_ARCHETYPE_COLLEGE_OF_ELOQUENCE" />
+			<element type="Archetype Feature" id="ID_WOTC_UA20190918_ARCHETYPE_FEATURE_ELOQUENCE_UNIVERSAL_SPEECH" />
+			<element type="Archetype Feature" id="ID_WOTC_UA20190918_ARCHETYPE_FEATURE_ELOQUENCE_SOOTHING_WORDS" />
+			<element type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" />
 		</sum>
 		<magic>
 			<spellcasting name="Bard" ability="Charisma" attack="6" dc="14" source="ID_WOTC_PHB_CLASS_FEATURE_BARD_SPELLCASTING_BARD">
@@ -457,6 +460,7 @@ Despite its problems, I love Hillsfar, it's the greatest city in the world. The 
 					<spell name="Sleep" level="1" id="ID_PHB_SPELL_SLEEP" known="true" />
 					<spell name="Tasha’s Hideous Laughter" level="1" id="ID_PHB_SPELL_TASHAS_HIDEOUS_LAUGHTER" known="true" />
 					<spell name="Thunderwave" level="1" id="ID_PHB_SPELL_THUNDERWAVE" known="true" />
+					<spell name="Calm Emotions" level="2" id="ID_PHB_SPELL_CALM_EMOTIONS" known="true" />
 					<spell name="Heat Metal" level="2" id="ID_PHB_SPELL_HEAT_METAL" known="true" />
 				</spells>
 			</spellcasting>

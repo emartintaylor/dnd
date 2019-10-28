@@ -471,12 +471,12 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 			<element type="Feat" id="ID_PHB_FEAT_LUCKY" />
 			<element type="Level" id="ID_LEVEL_5" />
 			<element type="Level" id="ID_LEVEL_6" />
+			<element type="Level" id="ID_LEVEL_7" />
 			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_EYES_OF_CHARMING" />
 			<element type="Magic Item" id="ID_USER_DMG_MAGIC_ITEM_SIXTH_SWORD" />
 			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_BOOTS_OF_ELVENKIND" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_DAGGER" />
 			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_DAGGER_OF_VENOM" />
-			<element type="Level" id="ID_LEVEL_7" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_MONK" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS" />
