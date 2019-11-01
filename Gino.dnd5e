@@ -13,7 +13,7 @@
 		<archetype>
 		</archetype>
 		<background>Soldier</background>
-		<level>1</level>
+		<level>2</level>
 		<portrait>
 			<companion>
 			</companion>
@@ -27,13 +27,13 @@
 			<name>Gino Wilson (Xrrzt or ST-1152)</name>
 			<gender>Construct</gender>
 			<player-name>Eric MT</player-name>
-			<experience>0</experience>
+			<experience>300</experience>
 			<attacks>
 				<description><![CDATA[]]></description>
 				<attack identifier="b65f9071-d34a-4b7f-b0f4-e660975c5de3" name="Longsword" range="5 ft" attack="+5 vs AC" damage="1d8 + 3 slashing" displayed="true" ability="Strength">
 					<description><![CDATA[Versatile]]></description>
 				</attack>
-				<attack identifier="793b6f90-5d58-4b11-a6ad-29d2d289c932" name="Javelin" range="30/120" attack="+5 vs AC" damage="1d6 + 3 piercing" displayed="true" ability="Strength">
+				<attack identifier="" name="Javelin" range="30/120" attack="+5 vs AC" damage="1d6 + 3 piercing" displayed="true">
 					<description><![CDATA[Thrown]]></description>
 				</attack>
 			</attacks>
@@ -89,7 +89,7 @@ I’m always polite and respectful.</background-traits>
 			<wisdom>14</wisdom>
 			<charisma>15</charisma>
 		</abilities>
-		<elements level-count="1" registered-count="17">
+		<elements level-count="2" registered-count="19">
 			<element type="Option" name="Average Hit Points" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
@@ -189,6 +189,11 @@ I’m always polite and respectful.</background-traits>
 					<element type="Class Feature" name="Divine Sense" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_SENSE" />
 					<element type="Class Feature" name="Lay on Hands" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_LAY_ON_HANDS" />
 					<element type="Grants" name="Multiclassing Prerequisite" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
+					<element type="Class Feature" name="Fighting Style" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_FIGHTING_STYLE">
+						<element type="Class Feature" name="Fighting Style" requiredLevel="1" checksum="414cf419" registered="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_PROTECTION" />
+					</element>
+					<element type="Class Feature" name="Spellcasting" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_SPELLCASTING" />
+					<element type="Class Feature" name="Divine Smite" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_SMITE" />
 				</element>
 				<element type="Background" name="Background" requiredLevel="1" checksum="6a621392" registered="ID_BACKGROUND_SOLDIER">
 					<element type="Proficiency" name="Gaming Set" requiredLevel="1" checksum="17fd0787" registered="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET" />
@@ -212,6 +217,7 @@ I’m always polite and respectful.</background-traits>
 				<element type="Grants" name="Dexterity Modifier" id="ID_INTERNAL_GRANTS_ARMOR_CLASS_DEXTERITY_MODIFIER" />
 				<element type="Grants" name="Constitution Modifier" id="ID_INTERNAL_GRANTS_HP_CONSTITUTION_MODIFIER" />
 			</element>
+			<element type="Level" name="2" id="ID_LEVEL_2" />
 		</elements>
 		<defenses>
 			<conditional>
@@ -333,7 +339,7 @@ I’m always polite and respectful.</background-traits>
 				</details>
 			</item>
 		</equipment>
-		<sum element-count="100">
+		<sum element-count="105">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
@@ -353,19 +359,20 @@ I’m always polite and respectful.</background-traits>
 			<element type="Sub Race" id="ID_SPECIALIZATION_JUGGERNAUT" />
 			<element type="Size" id="ID_SIZE_LARGE" />
 			<element type="Racial Trait" id="ID_USER_POWERFUL_BUILD" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
 			<element type="Racial Trait" id="ID_WOTC_UA_RACIAL_TRAIT_HEAVY_PLATING" />
-			<element type="Alignment" id="ID_ALIGNMENT_LAWFUL_GOOD" />
-			<element type="Deity" id="ID_WOTC_PHB_DEITY_HELM" />
-			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_LONGSWORD" />
-			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
-			<element type="Armor" id="ID_WOTC_GEAR_SHIELD" />
 			<element type="Background" id="ID_BACKGROUND_SOLDIER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
 			<element type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND" />
 			<element type="Background Feature" id="ID_BACKGROUND_FEATURE_MILITARY_RANK" />
 			<element type="Proficiency" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET" />
+			<element type="Alignment" id="ID_ALIGNMENT_LAWFUL_GOOD" />
+			<element type="Deity" id="ID_WOTC_PHB_DEITY_HELM" />
+			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_LONGSWORD" />
+			<element type="Armor" id="ID_WOTC_GEAR_SHIELD" />
+			<element type="Level" id="ID_LEVEL_2" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_PALADIN" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
@@ -434,8 +441,35 @@ I’m always polite and respectful.</background-traits>
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_SENSE" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_LAY_ON_HANDS" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_FIGHTING_STYLE" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_SPELLCASTING" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_SMITE" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_PROTECTION" />
 		</sum>
-		<magic />
+		<magic>
+			<spellcasting name="Paladin" ability="Charisma" attack="4" dc="12" source="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_SPELLCASTING">
+				<slots s1="2" s2="0" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
+				<cantrips />
+				<spells>
+					<spell name="Bless" level="1" id="ID_PHB_SPELL_BLESS" prepared="true" />
+					<spell name="Cure Wounds" level="1" id="ID_PHB_SPELL_CURE_WOUNDS" prepared="true" />
+					<spell name="Searing Smite" level="1" id="ID_PHB_SPELL_SEARING_SMITE" prepared="true" />
+					<spell name="Ceremony" level="1" id="ID_XGTE_SPELL_CEREMONY" />
+					<spell name="Command" level="1" id="ID_PHB_SPELL_COMMAND" />
+					<spell name="Compelled Duel" level="1" id="ID_PHB_SPELL_COMPELLED_DUEL" />
+					<spell name="Detect Evil and Good" level="1" id="ID_PHB_SPELL_DETECT_EVIL_AND_GOOD" />
+					<spell name="Detect Magic" level="1" id="ID_PHB_SPELL_DETECT_MAGIC" />
+					<spell name="Detect Poison and Disease" level="1" id="ID_PHB_SPELL_DETECT_POISON_AND_DISEASE" />
+					<spell name="Divine Favor" level="1" id="ID_PHB_SPELL_DIVINE_FAVOR" />
+					<spell name="Heroism" level="1" id="ID_PHB_SPELL_HEROISM" />
+					<spell name="Protection from Evil and Good" level="1" id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" />
+					<spell name="Purify Food and Drink" level="1" id="ID_PHB_SPELL_PURIFY_FOOD_AND_DRINK" />
+					<spell name="Shield of Faith" level="1" id="ID_PHB_SPELL_SHIELD_OF_FAITH" />
+					<spell name="Thunderous Smite" level="1" id="ID_PHB_SPELL_THUNDEROUS_SMITE" />
+					<spell name="Wrathful Smite" level="1" id="ID_PHB_SPELL_WRATHFUL_SMITE" />
+				</spells>
+			</spellcasting>
+		</magic>
 	</build>
 	<!-- restricted sources -->
 	<sources>
